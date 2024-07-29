@@ -15,7 +15,10 @@ In this excersise first you need to install 'node_modules' folder</br>
  To run the code</br>
  `nodemon index.js`
 # Roadmap
-Five operations can do using this code in Qraphql Playground</br>
+Create,read,update,delete operations are doing using http GET,POST,DELETE & PUT </br>
+Using specific API paths you can GET all restaurants data, GET a single restaurant by ID, POST a new restaurant, DELETE a restaurant by ID and PUT to update a restaurant by ID</br>
+**swagger** specifications are writing separatly in a file - swagger.json </br>
+To learn more about writing **swagger** specifications, please follow this link [Swagger Editor](https://editor.swagger.io/)
 **READ - single**</br>
 restaurant: This gets a single restaurant based on a provided ID.</br>
 Qraphql Playground Query</br>
