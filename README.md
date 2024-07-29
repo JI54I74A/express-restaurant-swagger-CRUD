@@ -9,10 +9,10 @@ Swagger Specification/OpenAPI Specification is an API description format for RES
   to read more about swagger https://swagger.io/docs/specification/about/
 # How to Run
 In this excersise first you need to install 'node_modules' folder</br>
-`npm init`
- then add libraries for **swagger**
- `npm install swagger-jsdoc swagger-ui-express express nodemon`
- To run the code
+`npm init`</br>
+ then add libraries for **swagger**</br>
+ `npm install swagger-jsdoc swagger-ui-express express nodemon`</br>
+ To run the code</br>
  `nodemon index.js`
 # Roadmap
 Five operations can do using this code in Qraphql Playground</br>
