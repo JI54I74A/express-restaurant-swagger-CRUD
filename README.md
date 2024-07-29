@@ -17,23 +17,9 @@ In this excersise first you need to install 'node_modules' folder</br>
 # Roadmap
 Create,read,update,delete operations are doing using http GET,POST,DELETE & PUT </br>
 Using specific API paths you can GET all restaurants data, GET a single restaurant by ID, POST a new restaurant, DELETE a restaurant by ID and PUT to update a restaurant by ID</br>
-**swagger** specifications are writing separatly in a file - swagger.json </br>
-To learn more about writing **swagger** specifications, please follow this link [Swagger Editor](https://editor.swagger.io/)
-**READ - single**</br>
-restaurant: This gets a single restaurant based on a provided ID.</br>
-Qraphql Playground Query</br>
-```
-query findrestaurants($iid:Int=1){
-  restaurant(id: $iid) {
-    name
-    description
-    dishes{
-      name
-      price
-    }
-  }
-}
-```
+**swagger** specifications are writing separatly in a file - **swagger.json** </br>
+To learn more about writing swagger specifications, please follow this link [Swagger Editor](https://editor.swagger.io/)</br>
+The Swagger documentation is available in http://localhost:4000/api-docs , where you can see all the GET,POST,DELETE & PUT tabs
 
 # License
 MIT License
