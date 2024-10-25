@@ -1,4 +1,4 @@
-# express-restaurant-swagger-CRUD
+## express-restaurant-swagger-CRUD
 This is a Express Restaurant app, generating and documenting API using Swagger for all the CRUD operations.
 Swagger Specification/OpenAPI Specification is an API description format for REST APIs. An OpenAPI file allows you to describe your entire API, including:</br>
 
@@ -7,14 +7,14 @@ Swagger Specification/OpenAPI Specification is an API description format for RES
 - Authentication methods</br>
 - Contact information, license, terms of use and other information.</br>
   to read more about swagger https://swagger.io/docs/specification/about/
-# How to Run
+## How to Run
 In this excersise first you need to install 'node_modules' folder</br>
 `npm init`</br>
  then add libraries for **swagger**</br>
  `npm install swagger-jsdoc swagger-ui-express express nodemon`</br>
  To run the code</br>
  `nodemon index.js`
-# Roadmap
+## Roadmap
 Create,read,update,delete operations are doing using http GET,POST,DELETE & PUT </br>
 Using specific API paths you can GET all restaurants data, GET a single restaurant by ID, POST a new restaurant, DELETE a restaurant by ID and PUT to update a restaurant by ID</br>
 **swagger** specifications are writing separatly in a file - **swagger.json** </br>
@@ -22,7 +22,7 @@ To learn more about writing swagger specifications, please follow this link [Swa
 The Swagger documentation for project has created in http://localhost:4000/api-docs(given path for swagger) , where you can see all the GET,POST,DELETE & PUT tabs</br>
 There is a button for 'Try It Out' and and we can execute the API and see the responses. </br>
 **swagger** is a very helpful tool for designing, building, documenting, and consuming RESTful web services
-# License
+## License
 MIT License
 
 Copyright (c) 2020 John Williams
